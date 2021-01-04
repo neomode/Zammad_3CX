@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Crm xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Country="TR" Name="Zammad" Version="1">
-  <Number Prefix="Off" MaxLength="[MaxLength]" />
+  <Number Prefix="Off" MaxLength="24" />
   <Connection MaxConcurrentRequests="16" />
   <Parameters>
     <Parameter Name="ctiUrl" Type="String" Parent="General Configuration" Editor="String" Title="Zammad CTI Endpoint URL:" Default="Your Zammad CTI Generic Endpoint full URL" />
